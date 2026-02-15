@@ -35,7 +35,8 @@ export default function SpecialSection({ type = 'daily-special' }) {
 
   return (
     <div className="bg-gradient-to-r from-amber-900 to-amber-800 rounded-lg p-6 border-2 border-amber-600 my-8">
-      <h3 className="text-2xl font-bold text-amber-100 mb-2">{content.title}</h3>
+      {/* [BUG - Color] 'text-stone-900' is invisible on dark background. [FIX] Change to text-amber-100 or text-stone-300 */}
+      <h3 className="text-2xl font-bold text-stone-900 mb-2">{content.title}</h3>
       <p className="text-amber-50 text-sm mb-4">{content.description}</p>
       <ul className="space-y-2">
         {content.items.map((item, idx) => (

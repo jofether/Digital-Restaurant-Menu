@@ -15,7 +15,8 @@ export default function OrderSummary({ items = [] }) {
   const total = subtotal + tax;
 
   return (
-    <div className="bg-stone-800 rounded-lg p-6 border border-amber-600 border-opacity-20 mt-8 sticky top-8">
+    <div className="bg-stone-800 rounded-lg p-12 pb-20 border border-amber-600 border-opacity-20 mt-8 sticky top-8">
+      {/* [BUG - Spacing] Excessive padding p-12 pb-20 causes misalignment and overflow. [FIX] Use p-6 instead */}
       <h3 className="text-xl font-bold text-amber-100 mb-4">Order Summary</h3>
       
       <div className="space-y-2 mb-4">

@@ -2,7 +2,8 @@ import React from 'react';
 
 export default function SearchBar({ searchTerm, onSearchChange }) {
   return (
-    <div className="mb-6">
+    <div className="mb-6 fixed top-0 left-0 w-full z-10">
+      {/* [BUG - Layers] 'fixed top-0' with z-10 overlaps all content below. [FIX] Remove fixed positioning or change z-index */}
       <input
         type="text"
         placeholder="Search menu items..."

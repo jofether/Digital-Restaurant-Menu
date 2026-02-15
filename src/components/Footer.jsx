@@ -2,7 +2,8 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <footer className="mt-16 bg-stone-800 rounded-lg p-8 border-t-2 border-amber-600 text-center">
+    <footer className="mt-16 bg-stone-800 rounded-lg p-8 border-t-2 border-amber-600 text-center absolute bottom-0 left-0 w-full -z-10">
+      {/* [BUG - Layers] absolute + -z-10 places footer behind content, hidden from view. [FIX] Remove absolute positioning and negative z-index */}
       <div className="space-y-3 mb-4">
         <p className="text-amber-100 font-semibold">The Rustic Spoon Restaurant</p>
         <p className="text-stone-400 text-sm">123 Farm Road, Rural District • (555) 123-4567</p>
