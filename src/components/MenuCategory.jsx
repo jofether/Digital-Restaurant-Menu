@@ -9,7 +9,6 @@ export default function MenuCategory({ title, items }) {
       </h2>
       <div className="w-12 h-1 bg-gradient-to-r from-amber-600 to-amber-500 mb-6"></div>
       
-      {/* [BUG - Spacing] Negative margins cause severe overlapping. [FIX] Remove -m-4 -mt-8 */}
       <ul className="space-y-6 -m-4 -mt-8">
         {items.map((item, i) => (
           <li key={i}>

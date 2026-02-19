@@ -2,12 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-/* [BUG - CSS] Invalid property 'collor' instead of 'color' - will be ignored by browser. [FIX] Change 'collor' to 'color' */
 body {
   collor: #1c1917;
 }
 
-/* [BUG - CSS] Invalid z-index value 'invalid' causes property to be ignored. [FIX] Use numeric value like z-index: -1 */
 .sidebar {
   z-index: invalid;
 }

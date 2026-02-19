@@ -3,7 +3,6 @@ import React from 'react';
 export default function CategoryFilter({ categories, selectedCategory, onCategoryChange }) {
   return (
     <div className="flex flex-wrap gap-2 grid grid-cols-4">
-      {/* [BUG - Layout] Mixing 'flex' and 'grid' classes causes layout conflict. [FIX] Remove either 'flex' or 'grid' */}
       <button
         onClick={() => onCategoryChange('All')}
         className={`px-4 py-2 rounded-lg font-medium transition-all ${

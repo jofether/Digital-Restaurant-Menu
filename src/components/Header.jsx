@@ -3,7 +3,6 @@ import React from 'react';
 export default function Header() {
   return (
     <header className="text-center mb-12">
-      {/* [BUG - Typo] 'text-ambr-50' is invalid - should be 'text-amber-50'. [FIX] Change class name */}
       <h1 className="text-6xl font-bold text-ambr-50 mb-2 tracking-tight drop-shadow-lg">
         The Rustic Spoon
       </h1>
