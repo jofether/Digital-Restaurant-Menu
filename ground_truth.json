@@ -1,0 +1,155 @@
+{
+  "repository": "Digital Restaurant Menu",
+  "bugs": [
+    {
+      "bug_category": "Layout",
+      "bug_type": "flexbox",
+      "file_modified": "src/components/CategoryFilter.jsx",
+      "line_number": 5,
+      "clean_code": "<div className=\"flex flex-wrap gap-2\">",
+      "buggy_code": "<div className=\"flex flex-wrap gap-2 grid grid-cols-4\">",
+      "css_selector": ".grid-cols-4",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Layers",
+      "bug_type": "z-index",
+      "file_modified": "src/components/Footer.jsx",
+      "line_number": 5,
+      "clean_code": "<footer className=\"mt-16 bg-stone-800 rounded-lg p-8 border-t-2 border-amber-600 text-center\">",
+      "buggy_code": "<footer className=\"mt-16 bg-stone-800 rounded-lg p-8 border-t-2 border-amber-600 text-center absolute bottom-0 left-0 w-full -z-10\">",
+      "css_selector": ".-z-10",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Typo",
+      "bug_type": "text-color",
+      "file_modified": "src/components/Header.jsx",
+      "line_number": 6,
+      "clean_code": "<h1 className=\"text-6xl font-bold text-amber-50 mb-2 tracking-tight drop-shadow-lg\">",
+      "buggy_code": "<h1 className=\"text-6xl font-bold text-ambr-50 mb-2 tracking-tight drop-shadow-lg\">",
+      "css_selector": ".text-ambr-50",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Spacing",
+      "bug_type": "margin",
+      "file_modified": "src/components/MenuCategory.jsx",
+      "line_number": 12,
+      "clean_code": "<ul className=\"space-y-6\">",
+      "buggy_code": "<ul className=\"space-y-6 -m-4 -mt-8\">",
+      "css_selector": ".-m-4",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Layout",
+      "bug_type": "flexbox",
+      "file_modified": "src/components/MenuItem.jsx",
+      "line_number": 5,
+      "clean_code": "<div className=\"border-b border-stone-700 pb-6 last:border-b-0 hover:bg-stone-700 hover:bg-opacity-50 p-4 rounded-lg transition-colors\">",
+      "buggy_code": "<div className=\"border-b border-stone-700 pb-6 last:border-b-0 hover:bg-stone-700 hover:bg-opacity-50 p-4 rounded-lg transition-colors flex flex-col-reverse\">",
+      "css_selector": ".flex-col-reverse",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Spacing",
+      "bug_type": "padding",
+      "file_modified": "src/components/OrderSummary.jsx",
+      "line_number": 18,
+      "clean_code": "<div className=\"bg-stone-800 rounded-lg p-6 border border-amber-600 border-opacity-20 mt-8 sticky top-8\">",
+      "buggy_code": "<div className=\"bg-stone-800 rounded-lg p-12 pb-20 border border-amber-600 border-opacity-20 mt-8 sticky top-8\">",
+      "css_selector": ".p-12",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Layers",
+      "bug_type": "z-index",
+      "file_modified": "src/components/SearchBar.jsx",
+      "line_number": 5,
+      "clean_code": "<div className=\"mb-6\">",
+      "buggy_code": "<div className=\"mb-6 fixed top-0 left-0 w-full z-10\">",
+      "css_selector": ".fixed",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Color",
+      "bug_type": "text-color",
+      "file_modified": "src/components/SpecialSection.jsx",
+      "line_number": 38,
+      "clean_code": "<h3 className=\"text-2xl font-bold text-amber-100 mb-2\">{content.title}</h3>",
+      "buggy_code": "<h3 className=\"text-2xl font-bold text-stone-900 mb-2\">{content.title}</h3>",
+      "css_selector": ".text-stone-900",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Typo",
+      "bug_type": "color",
+      "file_modified": "src/index.css",
+      "line_number": 6,
+      "clean_code": "color: #1c1917;",
+      "buggy_code": "collor: #1c1917;",
+      "css_selector": "body",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Typo",
+      "bug_type": "z-index",
+      "file_modified": "src/index.css",
+      "line_number": 10,
+      "clean_code": "z-index: -1;",
+      "buggy_code": "z-index: invalid;",
+      "css_selector": ".sidebar",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    }
+  ]
+}
