@@ -2,6 +2,7 @@
   "repository": "Digital Restaurant Menu",
   "bugs": [
     {
+      "comment": "Bug #1 - flexbox",
       "bug_category": "Layout",
       "bug_type": "flexbox",
       "file_modified": "src/components/CategoryFilter.jsx",
@@ -10,13 +11,14 @@
       "buggy_code": "<div className=\"flex flex-wrap gap-2 grid grid-cols-4\">",
       "css_selector": ".grid-cols-4",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 177,
+        "y": 289,
+        "width": 926,
+        "height": 91
       }
     },
     {
+      "comment": "Bug #2 - z-index",
       "bug_category": "Layers",
       "bug_type": "z-index",
       "file_modified": "src/components/Footer.jsx",
@@ -26,12 +28,13 @@
       "css_selector": ".-z-10",
       "bounding_box": {
         "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "y": 514,
+        "width": 1280,
+        "height": 206
       }
     },
     {
+      "comment": "Bug #3 - text-color",
       "bug_category": "Typo",
       "bug_type": "text-color",
       "file_modified": "src/components/Header.jsx",
@@ -40,13 +43,14 @@
       "buggy_code": "<h1 className=\"text-6xl font-bold text-ambr-50 mb-2 tracking-tight drop-shadow-lg\">",
       "css_selector": ".text-ambr-50",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 128,
+        "y": 48,
+        "width": 1024,
+        "height": 60
       }
     },
     {
+      "comment": "Bug #4 - margin",
       "bug_category": "Spacing",
       "bug_type": "margin",
       "file_modified": "src/components/MenuCategory.jsx",
@@ -55,13 +59,14 @@
       "buggy_code": "<ul className=\"space-y-6 -m-4 -mt-8\">",
       "css_selector": ".-m-4",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 145,
+        "y": 566,
+        "width": 990,
+        "height": 868
       }
     },
     {
+      "comment": "Bug #5 - flexbox",
       "bug_category": "Layout",
       "bug_type": "flexbox",
       "file_modified": "src/components/MenuItem.jsx",
@@ -70,13 +75,14 @@
       "buggy_code": "<div className=\"border-b border-stone-700 pb-6 last:border-b-0 hover:bg-stone-700 hover:bg-opacity-50 p-4 rounded-lg transition-colors flex flex-col-reverse\">",
       "css_selector": ".flex-col-reverse",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 145,
+        "y": 566,
+        "width": 990,
+        "height": 125
       }
     },
     {
+      "comment": "Bug #6 - padding",
       "bug_category": "Spacing",
       "bug_type": "padding",
       "file_modified": "src/components/OrderSummary.jsx",
@@ -85,13 +91,14 @@
       "buggy_code": "<div className=\"bg-stone-800 rounded-lg p-12 pb-20 border border-amber-600 border-opacity-20 mt-8 sticky top-8\">",
       "css_selector": ".p-12",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 128,
+        "y": 240,
+        "width": 1024,
+        "height": 221
       }
     },
     {
+      "comment": "Bug #7 - z-index",
       "bug_category": "Layers",
       "bug_type": "z-index",
       "file_modified": "src/components/SearchBar.jsx",
@@ -102,11 +109,12 @@
       "bounding_box": {
         "x": 0,
         "y": 0,
-        "width": 0,
-        "height": 0
+        "width": 1280,
+        "height": 50
       }
     },
     {
+      "comment": "Bug #8 - text-color",
       "bug_category": "Color",
       "bug_type": "text-color",
       "file_modified": "src/components/SpecialSection.jsx",
@@ -115,13 +123,14 @@
       "buggy_code": "<h3 className=\"text-2xl font-bold text-stone-900 mb-2\">{content.title}</h3>",
       "css_selector": ".text-stone-900",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 340,
+        "y": 450,
+        "width": 600,
+        "height": 40
       }
     },
     {
+      "comment": "Bug #9 - color",
       "bug_category": "Typo",
       "bug_type": "color",
       "file_modified": "src/index.css",
@@ -132,11 +141,12 @@
       "bounding_box": {
         "x": 0,
         "y": 0,
-        "width": 0,
-        "height": 0
+        "width": 1280,
+        "height": 720
       }
     },
     {
+      "comment": "Bug #10 - z-index",
       "bug_category": "Typo",
       "bug_type": "z-index",
       "file_modified": "src/index.css",
@@ -147,8 +157,8 @@
       "bounding_box": {
         "x": 0,
         "y": 0,
-        "width": 0,
-        "height": 0
+        "width": 280,
+        "height": 720
       }
     }
   ]
