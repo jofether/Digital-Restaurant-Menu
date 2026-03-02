@@ -241,6 +241,32 @@ function App() {
           )}
         </div>
 
+        {/* Order Summary - BUGGY VERSION */}
+        <div className="bg-stone-800 rounded-lg p-12 pb-20 border border-amber-600 border-opacity-20 mt-8 sticky top-8">
+          <h3 className="text-xl font-bold text-amber-100 mb-4 hidden">Order Summary</h3>
+          {/* [BUG - Display] Hidden class hides the order summary heading. [FIX] Remove 'hidden' class */}
+          <div className="space-y-2 mb-4">
+            <div className="flex justify-between text-stone-300 text-sm">
+              <span>Subtotal</span>
+              <span>$0.00</span>
+            </div>
+            <div className="flex justify-between text-stone-300 text-sm">
+              <span>Tax (12%)</span>
+              <span>$0.00</span>
+            </div>
+            <div className="border-t border-stone-700 pt-2 mt-2 flex justify-between text-amber-100 font-bold">
+              <span>Total</span>
+              <span>$0.00</span>
+            </div>
+          </div>
+          <button className="w-full bg-amber-600 hover:bg-amber-700 text-white font-bold py-3 rounded-lg transition-colors">
+            Place Order
+          </button>
+          <p className="text-xs text-stone-500 mt-4 text-center">
+            Prices include VAT. Gratuity not included.
+          </p>
+        </div>
+
         {/* Footer */}
         <footer className="mt-16 bg-stone-800 rounded-lg p-8 border-t-2 border-amber-600 text-center">
           <div className="space-y-3 mb-4">
