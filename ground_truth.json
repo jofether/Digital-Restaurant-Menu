@@ -155,10 +155,10 @@
       "buggy_code": "<h3 className=\"text-xl font-bold text-amber-100 mb-4 hidden\">Order Summary</h3>",
       "css_selector": "div.bg-stone-800.rounded-lg h3.text-amber-100",
       "bounding_box": {
-        "x": 1050,
-        "y": 240,
-        "width": 230,
-        "height": 40
+        "x": 913,
+        "y": 460,
+        "width": 206,
+        "height": 28
       }
     }
   ]
