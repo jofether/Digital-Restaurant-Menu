@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import MenuCategory from './components/MenuCategory';
 import SearchBar from './components/SearchBar';
 import CategoryFilter from './components/CategoryFilter';
+import OrderSummary from './components/OrderSummary';
 
 function App() {
   const [selectedCategory, setSelectedCategory] = useState('All');
@@ -52,10 +53,16 @@ function App() {
           onCategoryChange={setSelectedCategory}
         />
 
-        <div className="space-y-12 mt-12">
-          {filteredCategories.map((cat, idx) => (
-            <MenuCategory key={idx} title={cat.title} items={cat.items} />
-          ))}
+        <div className="flex gap-8 mt-12">
+          <div className="flex-1 space-y-12">
+            {filteredCategories.map((cat, idx) => (
+              <MenuCategory key={idx} title={cat.title} items={cat.items} />
+            ))}
+          </div>
+          
+          <div className="w-64">
+            <OrderSummary items={[]} />
+          </div>
         </div>
 
         <Footer />
