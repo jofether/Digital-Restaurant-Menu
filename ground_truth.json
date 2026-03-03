@@ -9,11 +9,11 @@
       "line_number": 5,
       "clean_code": "<div className=\"flex flex-wrap gap-2\">",
       "buggy_code": "<div className=\"flex flex-wrap gap-2 grid grid-cols-4\">",
-      "css_selector": "nav div.flex.flex-wrap.gap-2",
+      "css_selector": "div.flex.flex-wrap.gap-2",
       "bounding_box": {
         "x": 177,
         "y": 289,
-        "width": 926,
+        "width": 700,
         "height": 91
       }
     },
@@ -28,9 +28,9 @@
       "css_selector": "footer.bg-stone-800.rounded-lg",
       "bounding_box": {
         "x": 0,
-        "y": 514,
+        "y": 0,
         "width": 1280,
-        "height": 206
+        "height": 720
       }
     },
     {
@@ -61,7 +61,7 @@
       "bounding_box": {
         "x": 145,
         "y": 566,
-        "width": 990,
+        "width": 700,
         "height": 868
       }
     },
@@ -77,7 +77,7 @@
       "bounding_box": {
         "x": 145,
         "y": 566,
-        "width": 990,
+        "width": 700,
         "height": 125
       }
     },
@@ -89,12 +89,12 @@
       "line_number": 18,
       "clean_code": "<div className=\"bg-stone-800 rounded-lg p-6 border border-amber-600 border-opacity-20 mt-8 sticky top-8\">",
       "buggy_code": "<div className=\"bg-stone-800 rounded-lg p-12 pb-20 border border-amber-600 border-opacity-20 mt-8 sticky top-8\">",
-      "css_selector": "div.bg-stone-800.rounded-lg.border-amber-600",
+      "css_selector": "div.bg-stone-800.rounded-lg.border-amber-600.mt-8.sticky",
       "bounding_box": {
         "x": 900,
         "y": 240,
         "width": 250,
-        "height": 221
+        "height": 350
       }
     },
     {
@@ -110,7 +110,7 @@
         "x": 0,
         "y": 0,
         "width": 1280,
-        "height": 50
+        "height": 720
       }
     },
     {
@@ -125,7 +125,7 @@
       "bounding_box": {
         "x": 340,
         "y": 450,
-        "width": 600,
+        "width": 540,
         "height": 40
       }
     },
@@ -153,12 +153,12 @@
       "line_number": 20,
       "clean_code": "<h3 className=\"text-xl font-bold text-amber-100 mb-4\">Order Summary</h3>",
       "buggy_code": "<h3 className=\"text-xl font-bold text-amber-100 mb-4 hidden\">Order Summary</h3>",
-      "css_selector": "div.bg-stone-800.rounded-lg:has(button:has-text(\"Checkout\"))",
+      "css_selector": "div.bg-stone-800.rounded-lg:has(button:has-text(\"Place Order\"))",
       "bounding_box": {
         "x": 900,
-        "y": 264,
+        "y": 240,
         "width": 250,
-        "height": 28
+        "height": 250
       }
     }
   ]
