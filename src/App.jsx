@@ -5,6 +5,7 @@ import MenuCategory from './components/MenuCategory';
 import SearchBar from './components/SearchBar';
 import CategoryFilter from './components/CategoryFilter';
 import OrderSummary from './components/OrderSummary';
+import SpecialSection from './components/SpecialSection';
 
 function App() {
   const [selectedCategory, setSelectedCategory] = useState('All');
@@ -52,6 +53,8 @@ function App() {
           selectedCategory={selectedCategory}
           onCategoryChange={setSelectedCategory}
         />
+
+        <SpecialSection type="daily-special" />
 
         <div className="flex gap-8 mt-12">
           <div className="flex-1 space-y-12">
