@@ -78,7 +78,7 @@
       "line_number": 5,
       "neg_code": "<div className=\"border-b border-stone-700 pb-6 last:border-b-0 hover:bg-stone-700 hover:bg-opacity-50 p-4 rounded-lg transition-colors\">",
       "pos_code": "<div className=\"border-b border-stone-700 pb-6 last:border-b-0 hover:bg-stone-700 hover:bg-opacity-50 p-4 rounded-lg transition-colors flex flex-col-reverse\">",
-      "css_selector": "div.border-b.rounded-lg.p-4:has(h3:has-text(\"Signature Burger\"))",
+      "css_selector": "div.border-b.rounded-lg.p-4",
       "bounding_box": {
         "x": 145,
         "y": 566,
